@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<!-- Maintained by ATS Webbing  - Last modified 21 Nov 2011 -->
+<Values>
+	<Colour>
+		<choice>blue</choice>
+	</Colour>
+	<Database>
+		<host>localhost</host>
+		<name>readings</name>
+		<user>reader</user>
+		<pass>eccles1212</pass>
+	</Database>
+</Values>

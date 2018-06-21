@@ -1,0 +1,130 @@
+@import url("../settings/reset.css");
+/*
+ * Rinky Template #3
+ * Maintained by ATS Webbing - Last modified 10 Mar 2017
+ * Readings Template for all screens
+ */
+body {
+	font-family:Tahoma, Verdana, Arial, sans-serif;
+	font-size:100%;
+	margin:1em 0;
+}
+
+/* Main HTML features */
+
+body        {background:url(../images/readings.jpg) no-repeat center center;}
+h1,h2,h3    {color:#006600} /* dark green */
+h4,h6       {color:#00ca00} /* green */
+h5          {color:#004000} /* dark green */
+hr,a        {color:#002400} /* very dark green */
+
+h1,h2,h3,h4,h5,h6,p,blockquote,form,label,ul,ol,dl,fieldset,address {margin:0.5em; font-size:100%}
+li,dd {margin-left:1em}
+
+a {text-decoration:none}
+a:hover {text-decoration:underline}
+
+h1 {font-size:1.5em; font-weight:bold}
+h2 {font-size:1.3em; text-align:left}
+h3 {font-size:1.2em}
+h4 {font-size:1em; text-align:left; margin-bottom:1em; padding-left:3em}
+h5 {font-size:1em}
+h6 {font-size:0.7em; font-weight:bold}
+
+#rwrap	{
+    width:70em;
+    height:43em;
+    margin:0 auto; /* The auto parameter ensures that the division is centred on the page */
+    background:#cccc99; /* Light Mud */
+    border-color:#fff #aaa #aaa #fff;
+    border-style:solid;
+    border-width:2px 2px;
+    border-radius:0.5em;
+} 
+
+#header     {text-align:center;}
+#readings   {width:100%; margin:2em 0}
+
+/* This contains the main content */
+
+#studynavcontainer {
+    display:block;
+    margin:2em 12%;
+}
+
+/*
+ * This section provides a table with four columns for the Study Section (Dates with readings)
+ */
+
+#navlist4 {
+    float:left;
+    margin:1em auto 3em;
+    padding:1em;
+    color:black;
+    border:2px solid;
+    border-color:#aaa #666 #666 #aaa;
+    border-radius:0.5em;
+}
+
+#navlist4 li {
+    float:left;
+    display:block;
+    width:24%;
+    margin:0;
+    padding:0.4em 1em;
+    font-size:82%;
+    list-style:none;
+    text-align:center;
+    border:1px solid;
+    border-color:#fff #aaa #aaa #fff;
+}
+
+#navlist4 li.day {width:4.5em; margin-left:2em;}
+
+/*
+ * These divisions define the individual link buttons in three columns.
+ */
+
+#nav3plain {padding:1%}
+
+#nav3plain li {
+    float:left;
+    display:block;
+    width:30%;
+    list-style:none;
+    margin:0.2em;
+    padding:1.3em 0.5em;
+    font-size:1.1em;
+    font-weight:bold;
+    text-align:center;
+}
+#nav3plain li a {
+    padding:0.5em 0.5em;
+    border-style:solid;
+    border-width:2px 2px;
+    border-radius:0.5em;
+    background:#99cc66; /* Light Green */
+    color:#c66300; /* Burnt Orange */
+    border-color:#fff #aaa #aaa #fff;
+}
+#nav3plain li a:hover {
+    border-style:solid;
+    border-width:2px 2px;
+    background:Yellow; /* Yellow */
+    color:#0000ff; /* Blue */
+    border-color:#aaa #fff #fff #aaa;
+    text-decoration:none;
+}
+ 
+#footer	{
+    clear:both;
+    float:left;
+    width:30%;
+    margin:1.5em 35%;
+    text-align:center;
+}
+
+/* Other Classes */
+
+.centre     {text-align:center}
+.special    {background:#ff8080} /* Pink */
