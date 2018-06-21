@@ -1,8 +1,0 @@
-Installation Notes for READINGS module
-Maintained by ATS Webbing - Last modified 29 Nov 2016
-
-To install the Bible Readings module, you need to take two steps:
-
-1) Set up a new MySQL database using the SQL script: [readings.sql]
-2) Create a new link on any page using this URL: /[rinky]/readings/readings.php
-   NB: The leading forward slash in the URL is important!
